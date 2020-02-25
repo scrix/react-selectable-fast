@@ -22,18 +22,6 @@
     "watch:example": "webpack-dev-server --config ./example/webpack.config.example.js --content-base website",
     "build:example": "webpack --config ./example/webpack.config.example.js --mode production"
   },
-  "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "prettier --write",
-      "yarn lint:basic",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "bugs": {
     "url": "https://github.com/valerybugakov/react-selectable-fast/issues"
   },
