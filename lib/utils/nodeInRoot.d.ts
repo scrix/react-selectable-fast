@@ -1,1 +1,1 @@
-export declare function isNodeInRoot(node: HTMLElement, root: HTMLElement): boolean
+export declare function isNodeInRoot(node: HTMLElement, root: HTMLElement): boolean;
